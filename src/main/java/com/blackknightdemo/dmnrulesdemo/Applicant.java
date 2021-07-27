@@ -10,9 +10,9 @@ public class Applicant implements java.io.Serializable {
 
 	private java.math.BigInteger age;
 	private java.math.BigInteger creditScore;
-	@org.kie.api.definition.type.Label(value = "Monthly Income")
+	@org.kie.api.definition.type.Label("Monthly Income")
 	private java.lang.Double monthlyIncome;
-	@org.kie.api.definition.type.Label(value = "Name")
+	@org.kie.api.definition.type.Label("Name")
 	private java.lang.String name;
 
 	public Applicant() {
