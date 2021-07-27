@@ -6,12 +6,35 @@ package com.blackknightdemo.dmnrulesdemo;
 
 public class Loan implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Loan() {
-    }
+	@org.kie.api.definition.type.Label(value = "Amount")
+	private java.lang.Double amount;
+	@org.kie.api.definition.type.Label(value = "Duration in Years")
+	private java.lang.Integer duration;
 
+	public Loan() {
+	}
 
+	public java.lang.Double getAmount() {
+		return this.amount;
+	}
 
+	public void setAmount(java.lang.Double amount) {
+		this.amount = amount;
+	}
+
+	public java.lang.Integer getDuration() {
+		return this.duration;
+	}
+
+	public void setDuration(java.lang.Integer duration) {
+		this.duration = duration;
+	}
+
+	public Loan(java.lang.Double amount, java.lang.Integer duration) {
+		this.amount = amount;
+		this.duration = duration;
+	}
 
 }
