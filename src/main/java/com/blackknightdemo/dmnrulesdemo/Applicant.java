@@ -6,12 +6,57 @@ package com.blackknightdemo.dmnrulesdemo;
 
 public class Applicant implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public Applicant() {
-    }
+	private java.math.BigInteger age;
+	private java.math.BigInteger creditScore;
+	@org.kie.api.definition.type.Label(value = "Monthly Income")
+	private java.lang.Double monthlyIncome;
+	@org.kie.api.definition.type.Label(value = "Name")
+	private java.lang.String name;
 
+	public Applicant() {
+	}
 
+	public java.math.BigInteger getAge() {
+		return this.age;
+	}
 
+	public void setAge(java.math.BigInteger age) {
+		this.age = age;
+	}
+
+	public java.math.BigInteger getCreditScore() {
+		return this.creditScore;
+	}
+
+	public void setCreditScore(java.math.BigInteger creditScore) {
+		this.creditScore = creditScore;
+	}
+
+	public java.lang.Double getMonthlyIncome() {
+		return this.monthlyIncome;
+	}
+
+	public void setMonthlyIncome(java.lang.Double monthlyIncome) {
+		this.monthlyIncome = monthlyIncome;
+	}
+
+	public java.lang.String getName() {
+		return this.name;
+	}
+
+	public void setName(java.lang.String name) {
+		this.name = name;
+	}
+
+	public Applicant(java.math.BigInteger age,
+			java.math.BigInteger creditScore, java.lang.Double monthlyIncome,
+			java.lang.String name) {
+		this.age = age;
+		this.creditScore = creditScore;
+		this.monthlyIncome = monthlyIncome;
+		this.name = name;
+	}
 
 }
