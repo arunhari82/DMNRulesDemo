@@ -3,6 +3,22 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>local</id>
+        <url>/Users/arunhariharan/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>jboss-earlyaccess-plugin-repository</id>
+        <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>central</id>
         <url>https://repo.maven.apache.org/maven2</url>
         <source>PROJECT</source>
@@ -19,22 +35,6 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>/Users/arunhariharan/.m2/repository</url>
-        <source>LOCAL</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-ga-repository</id>
-        <url>https://maven.repository.redhat.com/techpreview/all</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
         <id>jboss-ga-plugin-repository</id>
         <url>https://maven.repository.redhat.com/techpreview/all</url>
         <source>SETTINGS</source>
@@ -43,8 +43,8 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-earlyaccess-plugin-repository</id>
-        <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
+        <id>jboss-ga-repository</id>
+        <url>https://maven.repository.redhat.com/techpreview/all</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
