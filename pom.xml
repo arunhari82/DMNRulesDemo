@@ -90,7 +90,7 @@
     <dependency>
       <groupId>com.blackknight.dmndemo</groupId>
       <artifactId>DocumentProcessingDMN-model</artifactId>
-      <version>1.0</version>
+      <version>1.00.01</version>
     </dependency>
   </dependencies>
   <build>
