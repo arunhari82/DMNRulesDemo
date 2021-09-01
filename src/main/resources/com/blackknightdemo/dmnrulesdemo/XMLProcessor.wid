@@ -4,7 +4,6 @@
             "displayName" : "XMLProcessor",
             "category" : "XMLProcessor",
             "description" : "",
-            "defaultHandler" : "mvel: new com.blackknight.demo.XMLProcessorWorkItemHandler()",
             "documentation" : "xmlprocessor/index.html",
 
             "parameters" : [
@@ -17,7 +16,6 @@
             ],
             "mavenDependencies" : [
                                  "com.blackknight.demo:xmlprocessor:1.0.0-SNAPSHOT"
-
             ],
             "icon" : "XMLProcessor.png"
 
