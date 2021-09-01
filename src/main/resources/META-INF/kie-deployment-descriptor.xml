@@ -16,12 +16,6 @@
             <parameters/>
             <name>ServiceTask</name>
         </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new com.blackknight.demo.XMLParserWorkItemHandler()</identifier>
-            <parameters/>
-            <name>XMLParser</name>
-        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>
