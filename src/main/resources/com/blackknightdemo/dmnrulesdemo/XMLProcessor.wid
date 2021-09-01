@@ -2,9 +2,7 @@
   [
     "name" : "MyTask", 
     "parameters" : [ 
-        "MyFirstParam" : new StringDataType(), 
-        "MySecondParam" : new StringDataType(), 
-        "MyThirdParam" : new ObjectDataType() 
+        "xmlData" : new StringDataType()
     ], 
     "results" : [ 
         "Result" : new ObjectDataType("java.util.Map") 
