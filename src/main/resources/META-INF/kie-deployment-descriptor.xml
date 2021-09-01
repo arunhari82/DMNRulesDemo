@@ -17,8 +17,8 @@
             <name>ServiceTask</name>
         </work-item-handler>
         <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new com.blackknight.demo.XMLProcessorWorkItemHandler()</identifier>
+            <resolver>reflection</resolver>
+            <identifier>com.blackknight.demo.XMLProcessorWorkItemHandler</identifier>
             <parameters/>
             <name>XMLProcessor</name>
         </work-item-handler>
