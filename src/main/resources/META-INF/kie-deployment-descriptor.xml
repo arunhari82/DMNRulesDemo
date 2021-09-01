@@ -12,7 +12,7 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.bpmn2.ServiceTaskHandler()</identifier>
+            <identifier>new org.jbpm.process.workitem.bpmn2.ServiceTaskHandler(classLoader)</identifier>
             <parameters/>
             <name>Service Task</name>
         </work-item-handler>
