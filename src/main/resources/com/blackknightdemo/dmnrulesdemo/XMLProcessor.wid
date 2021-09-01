@@ -1,7 +1,7 @@
 [
         [
-            "name" : "xmlProcessorDefinitions",
-            "displayName" : "xmlProcessorDefinitions",
+            "name" : "XMLProcessor",
+            "displayName" : "XMLProcessor",
             "category" : "xmlprocessor",
             "description" : "",
             "defaultHandler" : "mvel: new com.blackknight.demo.xmlProcessorWorkItemHandler()",
