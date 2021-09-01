@@ -2,7 +2,7 @@
         [
             "name" : "XMLProcessor",
             "displayName" : "XMLProcessor",
-            "category" : "xmlprocessor",
+            "category" : "XMLProcessor",
             "description" : "",
             "defaultHandler" : "mvel: new com.blackknight.demo.xmlProcessorWorkItemHandler()",
             "documentation" : "xmlprocessor/index.html",
@@ -19,7 +19,7 @@
                                  "com.blackknight.demo:xmlprocessor:1.0.0-SNAPSHOT"
 
             ],
-            "icon" : "xmlProcessorDefinitions.png"
+            "icon" : "XMLProcessor.png"
 
         ]
 
