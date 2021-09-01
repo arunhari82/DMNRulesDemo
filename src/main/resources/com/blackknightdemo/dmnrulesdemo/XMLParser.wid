@@ -1,15 +1,26 @@
 [
-  [
-    "name" : "MyTask", 
-    "parameters" : [ 
-        "MyFirstParam" : new StringDataType(), 
-        "MySecondParam" : new StringDataType(), 
-        "MyThirdParam" : new ObjectDataType() 
-    ], 
-    "results" : [ 
-        "Result" : new ObjectDataType("java.util.Map") 
-    ], 
-    "displayName" : "My Task", 
-    "icon" : "" 
-  ]
+        [
+            "name" : "XMLParserDefinitions",
+            "displayName" : "XMLParserDefinitions",
+            "category" : "XMLParser",
+            "description" : "",
+            "defaultHandler" : "mvel: new com.blackknight.demo.XMLParserWorkItemHandler()",
+            "documentation" : "XMLParser/index.html",
+
+            "parameters" : [
+                                "xmlData" : new StringDataType()
+
+            ],
+            "results" : [
+                                "results" : new ObjectDataType("java.util.Map")
+
+            ],
+            "mavenDependencies" : [
+                                 "com.blackknight.demo:XMLParser:1.0.0-SNAPSHOT"
+
+            ],
+            "icon" : "XMLParserDefinitions.png"
+
+        ]
+
 ]
