@@ -16,12 +16,6 @@
             <parameters/>
             <name>ServiceTask</name>
         </work-item-handler>
-        <work-item-handler>
-            <resolver>reflection</resolver>
-            <identifier>com.blackknight.demo.XMLProcessorWorkItemHandler</identifier>
-            <parameters/>
-            <name>XMLProcessor</name>
-        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>
