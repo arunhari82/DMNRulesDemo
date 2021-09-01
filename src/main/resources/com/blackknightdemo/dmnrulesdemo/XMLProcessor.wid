@@ -3,9 +3,6 @@
             "name" : "XMLProcessor",
             "displayName" : "XMLProcessor",
             "category" : "XMLProcessor",
-            "description" : "",
-            "documentation" : "xmlprocessor/index.html",
-
             "parameters" : [
                                 "xmlData" : new StringDataType()
 
@@ -13,11 +10,7 @@
             "results" : [
                                 "results" : new ObjectDataType("java.util.Map") 
 
-            ],
-            "mavenDependencies" : [
-                                 "com.blackknight.demo:xmlprocessor:1.0.0-SNAPSHOT"
-            ],
-            "icon" : "XMLProcessor.png"
+            ]
 
         ]
 
