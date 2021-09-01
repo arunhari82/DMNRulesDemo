@@ -1,13 +1,26 @@
 [
-  [
-    "name" : "MyTask", 
-    "parameters" : [ 
-        "xmlData" : new StringDataType()
-    ], 
-    "results" : [ 
-        "Result" : new ObjectDataType("java.util.Map") 
-    ], 
-    "displayName" : "My Task", 
-    "icon" : "" 
-  ]
+        [
+            "name" : "xmlProcessorDefinitions",
+            "displayName" : "xmlProcessorDefinitions",
+            "category" : "xmlprocessor",
+            "description" : "",
+            "defaultHandler" : "mvel: new com.blackknight.demo.xmlProcessorWorkItemHandler()",
+            "documentation" : "xmlprocessor/index.html",
+
+            "parameters" : [
+                                "xmlData" : new StringDataType()
+
+            ],
+            "results" : [
+                                "results" : new ObjectDataType("java.util.Map") 
+
+            ],
+            "mavenDependencies" : [
+                                 "com.blackknight.demo:xmlprocessor:1.0.0-SNAPSHOT"
+
+            ],
+            "icon" : "xmlProcessorDefinitions.png"
+
+        ]
+
 ]
