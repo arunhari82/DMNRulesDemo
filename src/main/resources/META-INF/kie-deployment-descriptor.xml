@@ -16,6 +16,12 @@
             <parameters/>
             <name>ServiceTask</name>
         </work-item-handler>
+        <work-item-handler>
+            <resolver>mvel</resolver>
+            <identifier>new org.jbpm.process.workitem.bpmn2.DecisionTaskHandler("", "", "")</identifier>
+            <parameters/>
+            <name>DecisionTask</name>
+        </work-item-handler>
     </work-item-handlers>
     <environment-entries/>
     <configurations/>
