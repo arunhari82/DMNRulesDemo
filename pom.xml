@@ -91,7 +91,6 @@
       <groupId>com.blackknight.dmndemo</groupId>
       <artifactId>DocumentProcessingDMN-model</artifactId>
       <version>1.0.1</version>
-      <scope>compile</scope>
     </dependency>
   </dependencies>
   <build>

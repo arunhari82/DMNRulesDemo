@@ -19,15 +19,15 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>/Users/arunhariharan/.m2/repository</url>
-        <source>LOCAL</source>
+        <id>jboss-earlyaccess-plugin-repository</id>
+        <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-earlyaccess-plugin-repository</id>
+        <id>jboss-earlyaccess-repository</id>
         <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
         <source>SETTINGS</source>
       </metadata>
@@ -43,9 +43,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-earlyaccess-repository</id>
-        <url>https://maven.repository.redhat.com/earlyaccess/all/</url>
-        <source>SETTINGS</source>
+        <id>local</id>
+        <url>/Users/arunhariharan/.m2/repository</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
   </repositories>
