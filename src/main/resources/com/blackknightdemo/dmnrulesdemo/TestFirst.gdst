@@ -2,15 +2,15 @@
   <tableName>TestFirst</tableName>
   <rowNumberCol>
     <hideColumn>false</hideColumn>
-    <width>-1</width>
+    <width>50</width>
   </rowNumberCol>
   <descriptionCol>
     <hideColumn>false</hideColumn>
-    <width>-1</width>
+    <width>150</width>
   </descriptionCol>
   <ruleNameColumn>
     <hideColumn>true</hideColumn>
-    <width>-1</width>
+    <width>150</width>
   </ruleNameColumn>
   <metadataCols/>
   <attributeCols/>
@@ -27,7 +27,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>-1</width>
+          <width>100</width>
           <header>City</header>
           <constraintValueType>1</constraintValueType>
           <factField>cityStandardized</factField>
@@ -42,7 +42,7 @@
             <isOtherwise>false</isOtherwise>
           </typedDefaultValue>
           <hideColumn>false</hideColumn>
-          <width>-1</width>
+          <width>100</width>
           <header>Min Number</header>
           <constraintValueType>1</constraintValueType>
           <factField>minNumber</factField>
@@ -64,7 +64,7 @@
         <isOtherwise>false</isOtherwise>
       </typedDefaultValue>
       <hideColumn>false</hideColumn>
-      <width>-1</width>
+      <width>100</width>
       <header>Status</header>
       <boundName>f1</boundName>
       <factField>status</factField>
@@ -110,5 +110,74 @@
   <version>739</version>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>FIRST_HIT</hitPolicy>
-  <data/>
+  <data>
+    <list>
+      <value>
+        <valueNumeric class="int">1</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Rule1</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Cumming</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="long">3</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Good</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+    <list>
+      <value>
+        <valueNumeric class="int">2</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_INTEGER</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Rule2</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Atlanta</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueNumeric class="long">3</valueNumeric>
+        <valueString></valueString>
+        <dataType>NUMERIC_LONG</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString>Good</valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+    </list>
+  </data>
 </decision-table52>
